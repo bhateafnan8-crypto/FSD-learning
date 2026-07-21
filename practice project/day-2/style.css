@@ -1,0 +1,400 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    color: #e4e4e4;
+    background-color: #101010;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    height: 80px;
+   background-image: linear-gradient(116deg, rgba(232, 232, 232, 0.03) 0%, rgba(232, 232, 232, 0.03) 10%,rgba(14, 14, 14, 0.03) 10%, rgba(14, 14, 14, 0.03) 66%,rgba(232, 232, 232, 0.03) 66%, rgba(232, 232, 232, 0.03) 72%,rgba(44, 44, 44, 0.03) 72%, rgba(44, 44, 44, 0.03) 81%,rgba(51, 51, 51, 0.03) 81%, rgba(51, 51, 51, 0.03) 100%),linear-gradient(109deg, rgba(155, 155, 155, 0.03) 0%, rgba(155, 155, 155, 0.03) 23%,rgba(30, 30, 30, 0.03) 23%, rgba(30, 30, 30, 0.03) 63%,rgba(124, 124, 124, 0.03) 63%, rgba(124, 124, 124, 0.03) 73%,rgba(195, 195, 195, 0.03) 73%, rgba(195, 195, 195, 0.03) 84%,rgba(187, 187, 187, 0.03) 84%, rgba(187, 187, 187, 0.03) 100%),linear-gradient(79deg, rgba(254, 254, 254, 0.03) 0%, rgba(254, 254, 254, 0.03) 27%,rgba(180, 180, 180, 0.03) 27%, rgba(180, 180, 180, 0.03) 33%,rgba(167, 167, 167, 0.03) 33%, rgba(167, 167, 167, 0.03) 34%,rgba(68, 68, 68, 0.03) 34%, rgba(68, 68, 68, 0.03) 63%,rgba(171, 171, 171, 0.03) 63%, rgba(171, 171, 171, 0.03) 100%),linear-gradient(109deg, rgba(71, 71, 71, 0.03) 0%, rgba(71, 71, 71, 0.03) 3%,rgba(97, 97, 97, 0.03) 3%, rgba(97, 97, 97, 0.03) 40%,rgba(40, 40, 40, 0.03) 40%, rgba(40, 40, 40, 0.03) 55%,rgba(5, 5, 5, 0.03) 55%, rgba(5, 5, 5, 0.03) 73%,rgba(242, 242, 242, 0.03) 73%, rgba(242, 242, 242, 0.03) 100%),linear-gradient(271deg, rgba(70, 70, 70, 0.03) 0%, rgba(70, 70, 70, 0.03) 11%,rgba(178, 178, 178, 0.03) 11%, rgba(178, 178, 178, 0.03) 23%,rgba(28, 28, 28, 0.03) 23%, rgba(28, 28, 28, 0.03) 72%,rgba(152, 152, 152, 0.03) 72%, rgba(152, 152, 152, 0.03) 86%,rgba(43, 43, 43, 0.03) 86%, rgba(43, 43, 43, 0.03) 100%),linear-gradient(90deg, rgb(27, 27, 27),rgb(1, 1, 1));
+    /* background-image: linear-gradient(285deg, rgba(57, 57, 57, 0.04) 0%, rgba(57, 57, 57, 0.04) 25%,rgba(126, 126, 126, 0.04) 25%, rgba(126, 126, 126, 0.04) 50%,rgba(80, 80, 80, 0.04) 50%, rgba(80, 80, 80, 0.04) 75%,rgba(117, 117, 117, 0.04) 75%, rgba(117, 117, 117, 0.04) 100%),linear-gradient(333deg, rgba(26, 26, 26, 0.04) 0%, rgba(26, 26, 26, 0.04) 25%,rgba(154, 154, 154, 0.04) 25%, rgba(154, 154, 154, 0.04) 50%,rgba(218, 218, 218, 0.04) 50%, rgba(218, 218, 218, 0.04) 75%,rgba(91, 91, 91, 0.04) 75%, rgba(91, 91, 91, 0.04) 100%),linear-gradient(45deg, rgba(14, 14, 14, 0.04) 0%, rgba(14, 14, 14, 0.04) 25%,rgba(216, 216, 216, 0.04) 25%, rgba(216, 216, 216, 0.04) 50%,rgba(44, 44, 44, 0.04) 50%, rgba(44, 44, 44, 0.04) 75%,rgba(111, 111, 111, 0.04) 75%, rgba(111, 111, 111, 0.04) 100%),linear-gradient(251deg, rgba(27, 27, 27, 0.04) 0%, rgba(27, 27, 27, 0.04) 25%,rgba(107, 107, 107, 0.04) 25%, rgba(107, 107, 107, 0.04) 50%,rgba(167, 167, 167, 0.04) 50%, rgba(167, 167, 167, 0.04) 75%,rgba(34, 34, 34, 0.04) 75%, rgba(34, 34, 34, 0.04) 100%),linear-gradient(63deg, rgba(114, 114, 114, 0.04) 0%, rgba(114, 114, 114, 0.04) 25%,rgba(16, 16, 16, 0.04) 25%, rgba(16, 16, 16, 0.04) 50%,rgba(190, 190, 190, 0.04) 50%, rgba(190, 190, 190, 0.04) 75%,rgba(159, 159, 159, 0.04) 75%, rgba(159, 159, 159, 0.04) 100%),linear-gradient(90deg, rgb(44, 69, 142),rgb(133, 17, 234)); */
+}
+
+
+nav h2 {
+    color: #e4e4e4;
+    font-family: 'Hind Madurai';
+    font-weight: 400;
+}
+
+nav a {
+    font-family: "roboto";
+    color: #e4e4e4;
+    text-decoration: none;
+}
+
+#nav-links {
+    display: flex;
+    gap: 120px;
+}
+
+nav span {
+    padding: 8px 30px;
+    background-color: blueviolet;
+    border-radius: 8px;
+}
+nav #menu{
+    /* color: #e4e4e4; */
+    display: none;
+}
+/* 
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 80px;
+    border: 1px solid red;
+
+} */
+.hero-section {
+    height: calc(100% - 80px); /* takes most of screen height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* vertical center */
+    align-items: center;      /* horizontal center */
+    text-align: center;
+    /* margin-top: 80px; */
+    padding:100px 40px;
+    /* border: 1px solid red; */
+    background-image: linear-gradient(17deg, rgba(41, 41, 41, 0.02) 0%, rgba(41, 41, 41, 0.02) 48%,rgba(10, 10, 10, 0.02) 48%, rgba(10, 10, 10, 0.02) 59%,rgba(164, 164, 164, 0.02) 59%, rgba(164, 164, 164, 0.02) 73%,rgba(79, 79, 79, 0.02) 73%, rgba(79, 79, 79, 0.02) 93%,rgba(42, 42, 42, 0.02) 93%, rgba(42, 42, 42, 0.02) 100%),linear-gradient(42deg, rgba(124, 124, 124, 0.02) 0%, rgba(124, 124, 124, 0.02) 15%,rgba(116, 116, 116, 0.02) 15%, rgba(116, 116, 116, 0.02) 23%,rgba(41, 41, 41, 0.02) 23%, rgba(41, 41, 41, 0.02) 44%,rgba(196, 196, 196, 0.02) 44%, rgba(196, 196, 196, 0.02) 54%,rgba(145, 145, 145, 0.02) 54%, rgba(145, 145, 145, 0.02) 100%),linear-gradient(151deg, rgba(85, 85, 85, 0.02) 0%, rgba(85, 85, 85, 0.02) 12%,rgba(72, 72, 72, 0.02) 12%, rgba(72, 72, 72, 0.02) 28%,rgba(156, 156, 156, 0.02) 28%, rgba(156, 156, 156, 0.02) 33%,rgba(230, 230, 230, 0.02) 33%, rgba(230, 230, 230, 0.02) 50%,rgba(13, 13, 13, 0.02) 50%, rgba(13, 13, 13, 0.02) 100%),linear-gradient(76deg, rgba(25, 25, 25, 0.02) 0%, rgba(25, 25, 25, 0.02) 9%,rgba(183, 183, 183, 0.02) 9%, rgba(183, 183, 183, 0.02) 32%,rgba(19, 19, 19, 0.02) 32%, rgba(19, 19, 19, 0.02) 86%,rgba(129, 129, 129, 0.02) 86%, rgba(129, 129, 129, 0.02) 88%,rgba(174, 174, 174, 0.02) 88%, rgba(174, 174, 174, 0.02) 100%),linear-gradient(90deg, rgb(41, 41, 41),rgb(8, 8, 8));
+/* background-image: linear-gradient(285deg, rgba(57, 57, 57, 0.04) 0%, rgba(57, 57, 57, 0.04) 25%,rgba(126, 126, 126, 0.04) 25%, rgba(126, 126, 126, 0.04) 50%,rgba(80, 80, 80, 0.04) 50%, rgba(80, 80, 80, 0.04) 75%,rgba(117, 117, 117, 0.04) 75%, rgba(117, 117, 117, 0.04) 100%),linear-gradient(333deg, rgba(26, 26, 26, 0.04) 0%, rgba(26, 26, 26, 0.04) 25%,rgba(154, 154, 154, 0.04) 25%, rgba(154, 154, 154, 0.04) 50%,rgba(218, 218, 218, 0.04) 50%, rgba(218, 218, 218, 0.04) 75%,rgba(91, 91, 91, 0.04) 75%, rgba(91, 91, 91, 0.04) 100%),linear-gradient(45deg, rgba(14, 14, 14, 0.04) 0%, rgba(14, 14, 14, 0.04) 25%,rgba(216, 216, 216, 0.04) 25%, rgba(216, 216, 216, 0.04) 50%,rgba(44, 44, 44, 0.04) 50%, rgba(44, 44, 44, 0.04) 75%,rgba(111, 111, 111, 0.04) 75%, rgba(111, 111, 111, 0.04) 100%),linear-gradient(251deg, rgba(27, 27, 27, 0.04) 0%, rgba(27, 27, 27, 0.04) 25%,rgba(107, 107, 107, 0.04) 25%, rgba(107, 107, 107, 0.04) 50%,rgba(167, 167, 167, 0.04) 50%, rgba(167, 167, 167, 0.04) 75%,rgba(34, 34, 34, 0.04) 75%, rgba(34, 34, 34, 0.04) 100%),linear-gradient(63deg, rgba(114, 114, 114, 0.04) 0%, rgba(114, 114, 114, 0.04) 25%,rgba(16, 16, 16, 0.04) 25%, rgba(16, 16, 16, 0.04) 50%,rgba(190, 190, 190, 0.04) 50%, rgba(190, 190, 190, 0.04) 75%,rgba(159, 159, 159, 0.04) 75%, rgba(159, 159, 159, 0.04) 100%),linear-gradient(90deg, rgb(44, 69, 142),rgb(133, 17, 234));*/
+} 
+
+.hero-section h2 {
+   /* margin-left: 40px; */
+    font-family: 'exo';
+    font-size: 80px;
+    width: 80%;
+    text-align: center;
+}
+
+.hero-section p{
+    font-family: 'roboto';
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 40px;
+    width: 64%;
+
+}
+.hero-section h2 span {
+    color: blueviolet;
+}
+.hero-section h4{
+     padding: 12px 36px;
+    background-color: blueviolet;
+    border-radius: 8px;
+    font-family: 'roboto';
+    font-weight: 400;
+    margin-top: 60px;
+
+}
+.services{
+    /* height: 100%; */
+    padding: 60px 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* gap: 40px; */
+    font-family: 'roboto';
+    overflow: hidden;
+}
+.services h2{
+    font-size: 40px;
+    border-bottom: 3px dashed blueviolet;
+}
+/* .services #cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+
+} */
+#cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 80px;
+    /* flex-wrap: wrap; */
+}
+/* .services #cards #card1{
+    border: 0.5px solid #6d6d6d;
+    width: 28%;
+    padding: 40px 60px 60px 40px;
+    background-image: linear-gradient(116deg, rgba(232, 232, 232, 0.03) 0%, rgba(232, 232, 232, 0.03) 10%,rgba(14, 14, 14, 0.03) 10%, rgba(14, 14, 14, 0.03) 66%,rgba(232, 232, 232, 0.03) 66%, rgba(232, 232, 232, 0.03) 72%,rgba(44, 44, 44, 0.03) 72%, rgba(44, 44, 44, 0.03) 81%,rgba(51, 51, 51, 0.03) 81%, rgba(51, 51, 51, 0.03) 100%),linear-gradient(109deg, rgba(155, 155, 155, 0.03) 0%, rgba(155, 155, 155, 0.03) 23%,rgba(30, 30, 30, 0.03) 23%, rgba(30, 30, 30, 0.03) 63%,rgba(124, 124, 124, 0.03) 63%, rgba(124, 124, 124, 0.03) 73%,rgba(195, 195, 195, 0.03) 73%, rgba(195, 195, 195, 0.03) 84%,rgba(187, 187, 187, 0.03) 84%, rgba(187, 187, 187, 0.03) 100%),linear-gradient(79deg, rgba(254, 254, 254, 0.03) 0%, rgba(254, 254, 254, 0.03) 27%,rgba(180, 180, 180, 0.03) 27%, rgba(180, 180, 180, 0.03) 33%,rgba(167, 167, 167, 0.03) 33%, rgba(167, 167, 167, 0.03) 34%,rgba(68, 68, 68, 0.03) 34%, rgba(68, 68, 68, 0.03) 63%,rgba(171, 171, 171, 0.03) 63%, rgba(171, 171, 171, 0.03) 100%),linear-gradient(109deg, rgba(71, 71, 71, 0.03) 0%, rgba(71, 71, 71, 0.03) 3%,rgba(97, 97, 97, 0.03) 3%, rgba(97, 97, 97, 0.03) 40%,rgba(40, 40, 40, 0.03) 40%, rgba(40, 40, 40, 0.03) 55%,rgba(5, 5, 5, 0.03) 55%, rgba(5, 5, 5, 0.03) 73%,rgba(242, 242, 242, 0.03) 73%, rgba(242, 242, 242, 0.03) 100%),linear-gradient(271deg, rgba(70, 70, 70, 0.03) 0%, rgba(70, 70, 70, 0.03) 11%,rgba(178, 178, 178, 0.03) 11%, rgba(178, 178, 178, 0.03) 23%,rgba(28, 28, 28, 0.03) 23%, rgba(28, 28, 28, 0.03) 72%,rgba(152, 152, 152, 0.03) 72%, rgba(152, 152, 152, 0.03) 86%,rgba(43, 43, 43, 0.03) 86%, rgba(43, 43, 43, 0.03) 100%),linear-gradient(90deg, rgb(27, 27, 27),rgb(1, 1, 1));
+    
+}
+#card1 h3{
+    font-size: 20px;
+}
+#card1 p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 20px
+}
+.services #cards #card2{
+    border: 0.5px solid #6d6d6d;
+    width: 28%;
+    padding: 40px 60px 60px 40px;
+    background-image: linear-gradient(116deg, rgba(232, 232, 232, 0.03) 0%, rgba(232, 232, 232, 0.03) 10%,rgba(14, 14, 14, 0.03) 10%, rgba(14, 14, 14, 0.03) 66%,rgba(232, 232, 232, 0.03) 66%, rgba(232, 232, 232, 0.03) 72%,rgba(44, 44, 44, 0.03) 72%, rgba(44, 44, 44, 0.03) 81%,rgba(51, 51, 51, 0.03) 81%, rgba(51, 51, 51, 0.03) 100%),linear-gradient(109deg, rgba(155, 155, 155, 0.03) 0%, rgba(155, 155, 155, 0.03) 23%,rgba(30, 30, 30, 0.03) 23%, rgba(30, 30, 30, 0.03) 63%,rgba(124, 124, 124, 0.03) 63%, rgba(124, 124, 124, 0.03) 73%,rgba(195, 195, 195, 0.03) 73%, rgba(195, 195, 195, 0.03) 84%,rgba(187, 187, 187, 0.03) 84%, rgba(187, 187, 187, 0.03) 100%),linear-gradient(79deg, rgba(254, 254, 254, 0.03) 0%, rgba(254, 254, 254, 0.03) 27%,rgba(180, 180, 180, 0.03) 27%, rgba(180, 180, 180, 0.03) 33%,rgba(167, 167, 167, 0.03) 33%, rgba(167, 167, 167, 0.03) 34%,rgba(68, 68, 68, 0.03) 34%, rgba(68, 68, 68, 0.03) 63%,rgba(171, 171, 171, 0.03) 63%, rgba(171, 171, 171, 0.03) 100%),linear-gradient(109deg, rgba(71, 71, 71, 0.03) 0%, rgba(71, 71, 71, 0.03) 3%,rgba(97, 97, 97, 0.03) 3%, rgba(97, 97, 97, 0.03) 40%,rgba(40, 40, 40, 0.03) 40%, rgba(40, 40, 40, 0.03) 55%,rgba(5, 5, 5, 0.03) 55%, rgba(5, 5, 5, 0.03) 73%,rgba(242, 242, 242, 0.03) 73%, rgba(242, 242, 242, 0.03) 100%),linear-gradient(271deg, rgba(70, 70, 70, 0.03) 0%, rgba(70, 70, 70, 0.03) 11%,rgba(178, 178, 178, 0.03) 11%, rgba(178, 178, 178, 0.03) 23%,rgba(28, 28, 28, 0.03) 23%, rgba(28, 28, 28, 0.03) 72%,rgba(152, 152, 152, 0.03) 72%, rgba(152, 152, 152, 0.03) 86%,rgba(43, 43, 43, 0.03) 86%, rgba(43, 43, 43, 0.03) 100%),linear-gradient(90deg, rgb(27, 27, 27),rgb(1, 1, 1));
+    
+}
+#card2 h3{
+    font-size: 20px;
+} */
+/* #card2 p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 20px
+}
+.services #cards #card3{
+    border: 0.5px solid #6d6d6d;
+    width: 28%;
+    padding: 40px 60px 60px 40px;
+    background-image: linear-gradient(116deg, rgba(232, 232, 232, 0.03) 0%, rgba(232, 232, 232, 0.03) 10%,rgba(14, 14, 14, 0.03) 10%, rgba(14, 14, 14, 0.03) 66%,rgba(232, 232, 232, 0.03) 66%, rgba(232, 232, 232, 0.03) 72%,rgba(44, 44, 44, 0.03) 72%, rgba(44, 44, 44, 0.03) 81%,rgba(51, 51, 51, 0.03) 81%, rgba(51, 51, 51, 0.03) 100%),linear-gradient(109deg, rgba(155, 155, 155, 0.03) 0%, rgba(155, 155, 155, 0.03) 23%,rgba(30, 30, 30, 0.03) 23%, rgba(30, 30, 30, 0.03) 63%,rgba(124, 124, 124, 0.03) 63%, rgba(124, 124, 124, 0.03) 73%,rgba(195, 195, 195, 0.03) 73%, rgba(195, 195, 195, 0.03) 84%,rgba(187, 187, 187, 0.03) 84%, rgba(187, 187, 187, 0.03) 100%),linear-gradient(79deg, rgba(254, 254, 254, 0.03) 0%, rgba(254, 254, 254, 0.03) 27%,rgba(180, 180, 180, 0.03) 27%, rgba(180, 180, 180, 0.03) 33%,rgba(167, 167, 167, 0.03) 33%, rgba(167, 167, 167, 0.03) 34%,rgba(68, 68, 68, 0.03) 34%, rgba(68, 68, 68, 0.03) 63%,rgba(171, 171, 171, 0.03) 63%, rgba(171, 171, 171, 0.03) 100%),linear-gradient(109deg, rgba(71, 71, 71, 0.03) 0%, rgba(71, 71, 71, 0.03) 3%,rgba(97, 97, 97, 0.03) 3%, rgba(97, 97, 97, 0.03) 40%,rgba(40, 40, 40, 0.03) 40%, rgba(40, 40, 40, 0.03) 55%,rgba(5, 5, 5, 0.03) 55%, rgba(5, 5, 5, 0.03) 73%,rgba(242, 242, 242, 0.03) 73%, rgba(242, 242, 242, 0.03) 100%),linear-gradient(271deg, rgba(70, 70, 70, 0.03) 0%, rgba(70, 70, 70, 0.03) 11%,rgba(178, 178, 178, 0.03) 11%, rgba(178, 178, 178, 0.03) 23%,rgba(28, 28, 28, 0.03) 23%, rgba(28, 28, 28, 0.03) 72%,rgba(152, 152, 152, 0.03) 72%, rgba(152, 152, 152, 0.03) 86%,rgba(43, 43, 43, 0.03) 86%, rgba(43, 43, 43, 0.03) 100%),linear-gradient(90deg, rgb(27, 27, 27),rgb(1, 1, 1));
+    
+} */
+.services #cards .card {
+    border: 0.5px solid #6d6d6d;
+    width: 28%;
+    padding: 60px 40px;
+    background-image: linear-gradient(90deg, rgb(27, 27, 27), rgb(1, 1, 1));
+}
+.card h3 {
+    font-size: 20px;
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+/* #card3 h3{
+    font-size: 20px;
+}
+#card3 p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 20px
+} */
+.card .btn{
+    font-size: 12px;
+    width: 120px;
+    text-align: center;
+   padding: 12px 20px;
+    background-color: blueviolet;
+    border-radius: 8px;
+    font-family: 'roboto';
+    font-weight: 600;
+    margin-top: 40px;
+}
+footer {
+    text-align: center;
+    padding: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+@media (max-width:800px){
+    nav h2{
+        font-size:20px;
+    }
+    nav #nav-links{
+        font-size: 12px;
+        gap: 60px;
+    }
+    nav span{
+        font-size: 12px;
+        padding: 8px 24px;
+    }
+    .hero-section{
+        padding: 60px 20px;
+    }
+    .hero-section h2{
+        font-size: 40px;
+        
+    }
+    .hero-section p{
+        font-size: 12px;
+        width: 56%;
+        margin-top: 20px;
+    }
+    .hero-section h4{
+        font-size: 12px;
+         margin-top: 24px;
+         padding: 8px 24px;
+    }
+    .services{
+        padding: 30px 20px;
+    }
+    .services #cards{
+        margin-top: 40px;
+    }
+    .services h2{
+        font-size: 24px;
+    }
+    .services #cards .card{
+        padding: 30px 20px;
+
+    }
+    .services h3{
+        font-size: 16px;
+    }
+    .services p{
+        font-size: 12px;
+    }
+    .services .card .btn{
+        font-size: 12px;
+        padding: 6px 12px;
+        /* width: 100px; */
+        margin-top: 20px;
+    }
+    footer{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:700px){
+    nav h2{
+        font-size:20px;
+    }
+    nav #nav-links{
+        font-size:12px;
+        gap: 60px;
+    }
+    nav span{
+        font-size: 12px;
+        padding: 6px 18px;
+    }
+    .hero-section{
+        padding: 60px 20px;
+    }
+    .hero-section h2{
+        font-size: 30px;
+        
+    }
+    .hero-section p{
+        font-size: 8px;
+        width: 56%;
+        margin-top: 20px;
+    }
+    .hero-section h4{
+        font-size: 8px;
+         margin-top: 20px;
+         padding: 6px 18px;
+    }
+    .services{
+        padding: 30px 20px;
+    }
+    .services #cards{
+        margin-top: 40px;
+    }
+    .services h2{
+        font-size: 20px;
+    }
+    .services #cards .card{
+        padding: 30px 20px;
+       
+
+    }
+    .services h3{
+        font-size: 12px;
+    }
+    .services p{
+        font-size: 8px;
+    }
+    .services .card .btn{
+        font-size: 8px;
+        padding: 4px 8px;
+        width: 80px;
+        margin-top: 20px;
+        border-radius: 4px;
+    }
+    footer{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:500px){
+    nav h2{
+        font-size:16px;
+    }
+    nav #nav-links{
+        display: none;
+    }
+    nav span{
+      display: none;
+    }
+    nav #menu{
+        color: #e4e4e4;
+        display: block;
+        font-size: 18px;
+    }
+    .hero-section{
+        padding: 60px 20px;
+    }
+    .hero-section h2{
+        font-size:20px;
+        
+    }
+    .hero-section p{
+        font-size: 8px;
+        width: 60%;
+        margin-top: 20px;
+    }
+    .hero-section h4{
+        font-size: 8px;
+         margin-top: 20px;
+         padding: 6px 18px;
+    }
+    .services{
+        padding: 30px 10px;
+    }
+    .services #cards{
+        margin-top: 20px;
+        padding: 0 20px;
+        gap: 20px;
+
+    }
+    
+    .services h2{
+        font-size: 16px;
+    }
+    .services #cards .card{
+        padding: 20px 10px;
+        width: 100%;
+
+    }
+    .services h3{
+        font-size: 8px;
+    }
+    .services p{
+        font-size: 4px;
+        margin-top: 12px;
+    }
+    .services .card .btn{
+        font-size: 4px;
+        padding: 4px 8px;
+        width: 60px;
+        margin-top: 12px;
+        border-radius: 4px;
+    }
+    footer{
+        font-size: 8px;
+    }
+}

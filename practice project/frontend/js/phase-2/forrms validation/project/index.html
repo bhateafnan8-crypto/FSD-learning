@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrapper">
+    <div class="card">
+      <h2>Feedback Form</h2>
+
+      <form id="feedbackForm" novalidate>
+        
+        <!-- Name -->
+        <div class="input-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Your full name" />
+          <small id="nameError" class="msg hidden"></small>
+        </div>
+
+        <!-- Email -->
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="you@example.com" />
+          <small id="emailError" class="msg hidden"></small>
+        </div>
+
+        <!-- Subject -->
+        <div class="input-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" placeholder="Feedback subject" />
+          <small id="subjectError" class="msg hidden"></small>
+        </div>
+
+        <!-- Message -->
+        <div class="input-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="4" placeholder="Write your feedback here..."></textarea>
+          <small id="messageError" class="msg hidden"></small>
+        </div>
+
+        <!-- Rating -->
+        <div class="input-group">
+          <label for="rating">Rate Us</label>
+          <select id="rating">
+            <option value="">-- Select Rating --</option>
+            <option value="5">Excellent ⭐⭐⭐⭐⭐</option>
+            <option value="4">Good ⭐⭐⭐⭐</option>
+            <option value="3">Average ⭐⭐⭐</option>
+            <option value="2">Poor ⭐⭐</option>
+            <option value="1">Very Poor ⭐</option>
+          </select>
+          <small id="ratingError" class="msg hidden"></small>
+        </div>
+
+        <!-- Submit -->
+        <input type="submit" value="submit" id="btn">
+        <p id="successMsg" class="success hidden"></p>
+      </form>
+    </div>
+  </main>
+
+  <!-- JS validation logic will go here -->
+  <script src="script.js" defer></script>
+</body>
+</html>

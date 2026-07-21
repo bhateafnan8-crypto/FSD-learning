@@ -1,0 +1,200 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Roboto;
+  /* background-color: #d5ff3f; */
+}
+main {
+  /* height: 100%; */
+  width: 100%;
+  background-color: #d5ff3f;
+}
+nav {
+  padding: 30px 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav h2 {
+  font-size: 40px;
+}
+nav .menu-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+nav a {
+  color: #111;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* ...................................................................................................... */
+
+section {
+  /* background-color: blue; */
+  padding: 60px 50px;
+}
+section .hero-text1 {
+  /* background-color: blue;   */
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.hero-text1 h1 {
+  font-size: 220px;
+  text-transform: uppercase;
+  /* font-family: poppins; */
+  font-weight: 900;
+  line-height: 200px;
+}
+.hero-text1 #video {
+  height: 90px;
+  width: 380px;
+  background-color: black;
+  border-radius: 50px;
+  margin-top: 15px;
+  background-image: url(https://images.unsplash.com/photo-1709377195538-5522ed0f9e10?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEwNHxDRHd1d1hKQWJFd3x8ZW58MHx8fHx8);
+  background-size: cover;
+  /* background-position: right; */
+  padding: 7px;
+}
+#video #play {
+  height: 100%;
+  width: 77px;
+  background-color: #111;
+  border-radius: 100px;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#play i {
+  color: white;
+  font-size: 25px;
+}
+section .hero-text2 {
+  /* background-color: blue;*/
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.hero-text2 h1 {
+  font-size: 220px;
+  text-transform: uppercase;
+  /* font-family: poppins; */
+  font-weight: 900;
+  line-height: 200px;
+}
+.hero-text2 p {
+  font-size: 25px;
+  width: 500px;
+  /* text-transform: uppercase;  */
+  /* font-family: poppins; */
+  /* font-weight: 900;
+line-height: 200px; */
+}
+
+/* ...................................................................................................... */
+
+#cta {
+  /* background-color: rgb(187, 196, 240); */
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  /* gap: 100px; */
+  /* padding: 30px 10px; */
+  /* position: relative; */
+}
+#button {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 20px;
+  padding: 30px 10px;
+  margin-right: 300px ;
+  /* position: absolute;
+  left: 0;
+  top: 10%; */
+}
+#button-1 {
+  border: 1px solid black;
+  padding: 5px 30px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#icon-1 i {
+  font-size: 25px;
+}
+#button-2 {
+  border: 1px solid black;
+  padding: 5px 30px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#icon-2 i {
+  font-size: 25px;
+}
+#button a {
+  text-decoration: none;
+  color: #111;
+  font-size: 20px;
+}
+/* #button2 i{
+  padding-right: 20px;
+} */
+#cta #line-1 {
+  background-color: #111;
+  width: 500px;
+  height: 2px;
+ /* position: absolute; */
+ /* top: 50%; */
+ /* right: 10%; */
+  /* border: 2px solid black; */
+  /* flex-grow: 10px; */
+}
+#image-1 {
+  width: 90%;
+  height: 600px;
+  /* background-color: blanchedalmond; */
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  margin-left: 5%;
+  background-image: url(photo-1749680287741-243118ed6b2c.avif);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-top: 50px;
+}
+#image-1 #arrow {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: #111;
+  position: absolute;
+  right: 5%;
+  top: -10%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid #444;
+}
+#arrow i {
+  font-size: 100px;
+}

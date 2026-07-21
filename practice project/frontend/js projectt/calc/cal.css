@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height:60vh;
+    width: 20vw;
+    border: 2px solid black;
+    margin: 150px 600px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; 
+
+}
+.screen{
+    height: 40px;
+    width: 265px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin: 15px 20px;
+    background-color: whitesmoke;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; 
+
+}
+.scr1{
+    font-size: 18px;
+    margin: 10px 90px;
+}
+.shapes{
+    height: 40px;
+    width: 50px;
+    border: 2px solid gold;
+    margin: 15px 15px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; 
+    cursor: pointer;
+
+}
+.hd1{
+    margin: 5px 5px;
+}
+.hd2{
+    margin: 5px 15px;
+}
+.hd3{
+    margin: 5px 10px;
+}
+.hd4{
+    margin: 5px 20px;
+}
+.shape{
+    height: 40px;
+    width: 50px;
+    border: 2px solid red;
+    margin-top: -59px;
+    margin-left: 90px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; 
+    cursor: pointer;
+
+}
+.shp{
+    height: 40px;
+    width: 50px;
+    border: 2px solid blue;
+    margin-top: -42px;
+    margin-left: 165px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; 
+    cursor: pointer;
+
+
+}
+.sp{
+    height: 40px;
+    width: 50px;
+    border: 2px solid green;
+    margin-top: -43px;
+    margin-left: 240px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; 
+    cursor: pointer;
+
+}
+.num{
+    /* border: 2px solid grey; */
+    width: 13vw;
+    height: 30vh;
+    margin: 20px 12px;
+}
+.num1{
+    height: 40px;
+    width: 50px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+
+    background-color: black;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; 
+    
+}
+.num2{
+    height: 40px;
+    width: 50px;
+    border: 2px solid grey;
+    margin-top: -43px;
+    margin-left: 70px;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; 
+    cursor: pointer;
+    
+}
+.num3{
+    height: 40px;
+    width: 50px;
+    border: 2px solid grey;
+    margin-top: -43px;
+    margin-left: 145px;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; 
+    
+}
+
+.num4{
+    height: 40px;
+    width: 50px;
+    border: 2px solid grey;
+   margin-top: 20px;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; 
+    cursor: pointer;
+    
+}
+.num5{
+    height: 40px;
+    width: 50px;
+    border: 2px solid grey;
+   margin-top: 20px;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; 
+    cursor: pointer;
+    
+}
+.num6{
+    height: 40px;
+    width: 50px;
+    border: 2px solid grey;
+    margin-top: -43px;
+    margin-left: 145px;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; 
+    
+}
+.num7{
+    height: 40px;
+    width: 50px;
+    border: 2px solid grey;
+    margin-top: -105px;
+    margin-left: 70px;
+    background-color: black;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; 
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.num8{
+    height: 40px;
+    width: 50px;
+    border: 2px solid grey;
+    margin-top: 20px;
+    margin-left: 70px;
+    background-color: black;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; 
+    cursor: pointer;
+    
+    border-radius: 10px;
+    
+}
+.num9{
+    height: 40px;
+    width: 50px;
+    border: 2px solid grey;
+    margin-top: -105px;
+    margin-left: 145px;
+    background-color: black;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; 
+    cursor: pointer;
+    
+    border-radius: 10px;
+    
+}
+.num10{
+    height: 40px;
+    width: 50px;
+    border: 2px solid grey;
+    margin-top: 80px;
+    margin-left: 70px;
+    background-color: black;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; 
+    cursor: pointer;
+    
+    border-radius: 10px;
+    
+}
+.num11{
+    height: 40px;
+    width: 50px;
+    border: 2px solid gray;
+    margin-top: -45px;
+    background-color: black;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; 
+    cursor: pointer;
+    
+    border-radius: 10px;
+    
+}
+.num12{
+    height: 40px;
+    width: 50px;
+    border: 2px solid grey;
+    margin-top: -40px;
+    margin-left: 145px;
+    background-color: black;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; 
+    cursor: pointer;
+    
+    border-radius: 10px;
+    
+}
+.num13{
+    height: 40px;
+    width: 50px;
+    border: 2px solid green;
+    margin-top: -44px;
+    margin-left: 230px;
+     border-radius: 10px;
+     border-radius: 50px;
+     background-color: gold;
+     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; 
+     cursor: pointer;
+    
+}
+.num14{
+    height: 40px;
+    width: 50px;
+    border: 2px solid green;
+    margin-top: -105px;
+    margin-left: 230px;
+     border-radius: 10px;
+     border-radius: 50px;
+     background-color: antiquewhite;
+     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; 
+    cursor: pointer;
+    
+}
+.num15{
+    height: 40px;
+    width: 50px;
+    border: 2px solid green;
+    margin-top: -105px;
+    margin-left: 230px;
+     border-radius: 10px;
+     border-radius: 50px;
+     background-color: antiquewhite;
+     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; 
+    cursor: pointer;
+    
+}
+.num16{
+    height: 40px;
+    width: 50px;
+    border: 2px solid green;
+    margin-top: -110px;
+    margin-left: 230px;
+     border-radius: 10px;
+     border-radius: 50px;
+     background-color: antiquewhite;
+     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; 
+    cursor: pointer;
+ 
+}
+.hed1{
+    margin: 5px 20px;
+    color: white;
+
+}
+.hed2{
+    margin: 5px 20px;
+    color: white;
+
+}
+.hed3{
+    margin: 5px 20px;
+    color: white;
+
+}
+.hed4{
+    margin: 5px 20px;
+    color: white;
+
+}
+.hed5{
+    margin: 5px 20px;
+    color: white;
+
+}
+.hed6{
+    margin: 5px 20px;
+    color: white;
+
+}
+.hed7{
+    margin: 5px 20px;
+    color: white;
+
+}
+.hed8{
+    margin: 5px 20px;
+    color: white;
+
+}
+.hed9{
+    margin: 5px 20px;
+    color: white;
+
+}
+.hed10{
+    margin: 5px 20px;
+    color: white;
+}
+.hed11{
+    margin: 5px 20px;
+    color: white;
+
+}
+.hed12{
+    margin: 2px 22px;
+    color: white;
+    
+}
+.hed13{
+    margin: 5px 20px;
+}
+.hed14{
+    margin: 5px 20px;
+}
+.hed15{
+    margin: 2px 22px;
+}
+.hed16{
+    margin: 5px 20px;
+}

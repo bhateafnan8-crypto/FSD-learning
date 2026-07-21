@@ -1,0 +1,259 @@
+:root {
+  --gray: #212121;
+  --green: #009660;
+  --white: #e9e9e9;
+  --black: #0c0c0c;
+  --lgray: #929292;
+  --vgray:#151515;
+}
+@font-face {
+  font-family: helo;
+  src: url(./HelveticaNowDisplay-Light_M4nzWhve6k_k7HolyzL10.woff2);
+}
+@font-face {
+  font-family: neu-b;
+  src: url(./NeueMachina-Bold_WaMOsLX9Z9.ttf);
+}
+@font-face {
+  font-family: neu-l;
+  src: url(./NeueMachina-Light_gwWCZxVuQl.ttf);
+}
+@font-face {
+  font-family: neu-r;
+  src: url(./NeueMachina-Regular_DQCmjH1st.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--white);
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: var(--black);
+}
+.green {
+  color: var(--green);
+}
+.lgray {
+  color: var(--lgray);
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  position: fixed;
+  width: 100%;
+}
+
+.nav1 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav1 img {
+  height: 40px;
+}
+
+.nav1 h4 {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 1.2;
+  font-family: "neu-r";
+}
+
+.nav2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.nav2 h4 {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 100;
+  font-family: "neu-r";
+}
+.nav2 img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.nav2 h4 i {
+  font-size: 20px;
+}
+.nav3 {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.nav3 h4 {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 100;
+  font-family: "neu-r";
+}
+.nav3 img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.nav2 h4:hover {
+  color: cyan;
+}
+
+@media (max-width: 600px) {
+  nav {
+    padding: 15px 25px;
+  }
+  .nav1 h4 {
+    font-size: 12px;
+  }
+  .nav1 img {
+    height: 30px;
+  }
+  .nav2 {
+    display: none;
+  }
+  .nav3 {
+    display: flex;
+  }
+}
+
+main {
+  padding-top: 100px;
+}
+.section1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.section1 .left {
+  /* background-color:red; */
+  width: 45%;
+}
+.section1 .left h1 {
+  font-size: 43px;
+  font-family: "helo";
+}
+.section1 .left .cta{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+.cta button{
+  background-color: var(--green);
+  padding: 20px 40px;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+}
+.cta button:nth-child(2){
+  background-color: var(--gray);
+}
+.section1 .left .tags {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+.section1 .left .tags h4 {
+  background-color: var(--gray);
+  padding: 10px 20px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+.left .price {
+  font-size: 40px;
+}
+.left .price .lgray {
+  font-size: 30px;
+}
+/* .section1 .right {
+  background-color: aqua;
+  width: 34%;
+} */
+.section1 .right .right-in {
+  /* height: 500px; */
+  border-radius: 5px;
+  width: 500px;
+  overflow: hidden;
+  /* background-color: #009660; */
+}
+.section1 .right .right-in .image {
+  height:280px;
+  width: 100%;
+}
+.section1 .right .right-in .image img {
+  width: 100%;
+  object-fit: cover;
+}
+.section1 .right .right-in .img-bottom {
+  padding: 20px;
+  padding-top: 30px;
+  background-color: var(--gray);
+  display: flex;
+  gap:10px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.right-in .img-bottom h4{
+  background-color: var(--vgray);
+  padding:10px 20px;
+  border-radius: 5px;
+  width: 45%;
+}
+
+@media (max-width:1200px) {
+  .section1 .left h1 {
+  font-size: 3.5vw;
+}
+  
+}
+
+@media (max-width:800px) {
+  main{
+  padding-top: 50px;
+
+  }
+  .section1{
+    flex-direction: column-reverse;
+    padding: 20px 5vw;
+  }
+  .section1 .left{
+    width: 100%;
+    margin-top: 30px;
+  }
+  .section1 .left h1 {
+  font-size: 32px;
+}
+
+  .section1 .right .right-in {
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.section1 .right .right-in .image {
+  width: 100%;
+  height:50vw;
+}
+}
+@media (max-width:600px) {
+  .section1 .left h1 {
+  font-size: 6vw;
+}
+  
+}
